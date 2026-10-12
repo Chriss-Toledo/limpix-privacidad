@@ -14,6 +14,7 @@
   body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
   main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
   header { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+  header a { display:flex; align-items:center; gap:12px; color:inherit; text-decoration:none; }
   .logo { width:72px; height:72px; border-radius:18px; }
   h1 { font-size:34px; margin:0; letter-spacing:-0.8px; }
   .hero { background:linear-gradient(135deg,#6C4DFF,#3F8CFF 55%,#22C1F1); color:#fff; border-radius:28px; padding:28px 24px; margin:20px 0 24px; }
@@ -25,18 +26,17 @@
   .feature span { color:var(--muted); font-size:14px; }
   .soon { display:inline-block; margin-top:16px; padding:10px 18px; border-radius:999px; background:#fff; color:#5B3DF5; font-weight:700; font-size:14px; }
   h2 { font-size:19px; margin:28px 0 8px; }
-  p, li { color:var(--text); }
+  p { color:var(--text); }
   .muted { color:var(--muted); font-size:14px; }
   nav { display:flex; gap:8px; margin:20px 0; flex-wrap:wrap; }
   nav a { padding:8px 14px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--text); text-decoration:none; font-weight:600; font-size:14px; }
   section { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:8px 20px 20px; margin-bottom:24px; }
   a { color:var(--brand); }
-  ul { padding-left:20px; }
 </style>
 </head>
 <body>
 <main>
-  <header><img class="logo" src="logo.png" alt="Limpix" width="72" height="72"><h1>Limpix</h1></header>
+  <header><a href="./"><img class="logo" src="logo.png" alt="Limpix" width="72" height="72"><h1>Limpix</h1></a></header>
 
   <div class="hero">
     <h2>Tu galería limpia, deslizando</h2>
@@ -52,45 +52,49 @@
   </div>
 
   <p class="muted">Contacto: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a></p>
-  <p class="muted" style="margin-top:28px">Política de privacidad · Privacy policy · Política de privacidade</p>
-  <nav><a href="#es">Español</a><a href="#en">English</a><a href="#pt">Português</a></nav>
+  <p class="muted" style="margin-top:28px">Política de privacidad · Privacy policy · Política de privacidade · Politique de confidentialité · Datenschutzerklärung · Informativa sulla privacy · Kebijakan privasi</p>
+  <nav><a href="#es">Español</a><a href="#en">English</a><a href="#pt">Português</a><a href="#fr">Français</a><a href="#de">Deutsch</a><a href="#it">Italiano</a><a href="#id">Bahasa Indonesia</a></nav>
 
   <section id="es" lang="es">
     <h2>Política de privacidad</h2>
-    <p class="muted">Vigente desde: 11 de octubre de 2026</p>
-    <p>Limpix es una aplicación para Android que ayuda a liberar espacio revisando y borrando fotos y videos. Responsable: Christopher Toledo, Chile. Contacto: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>.</p>
+    <p class="muted">Vigente desde: 12 de octubre de 2026 · <a href="terminos.html#es">Términos de uso</a></p>
+    <p>Limpix es una aplicación para Android que ayuda a liberar espacio revisando y borrando fotos y videos. Responsable: Christopher Toledo, Chile. Contacto: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>. Esta política se publica en varios idiomas; si hay diferencias, vale la versión en español.</p>
 
     <h2>Tus fotos y videos no salen del teléfono</h2>
-    <ul>
-      <li>Limpix lee tu galería para mostrarte las fotos y videos, encontrar duplicados, fotos parecidas, borrosas y documentos, y calcular cuánto espacio ocupan.</li>
-      <li>Todo ese análisis se hace dentro de tu teléfono. Limpix no sube, no copia y no comparte tus fotos ni tus videos con nadie.</li>
-      <li>Limpix no pide crear una cuenta y no tiene servidores propios que reciban tus archivos.</li>
-      <li>La lectura de texto en fotos (para reconocer documentos) y la compresión de videos también ocurren en el teléfono, sin conexión a internet.</li>
-    </ul>
+    <p>Limpix lee tu galería para mostrarte las fotos y videos, encontrar duplicados, fotos parecidas, borrosas y documentos, y calcular cuánto espacio ocupan. Todo ese análisis, la lectura de texto en fotos y la compresión de videos se hacen dentro de tu teléfono.</p>
+    <p>Limpix no sube, no copia y no comparte tus fotos ni tus videos, ni información sobre lo que contienen. No pide crear una cuenta y no tiene servidores propios que reciban tus archivos.</p>
 
     <h2>Qué guarda la app en tu teléfono</h2>
-    <p>Para funcionar, Limpix guarda en el propio teléfono: qué fotos ya revisaste, qué hay en la papelera de la app, el resultado del análisis, tus ajustes (idioma y apariencia), el contador de espacio liberado y cuántas fotos deslizaste hoy. Estos datos se eliminan al desinstalar la app o al borrar sus datos desde los ajustes de Android.</p>
+    <p>Para funcionar, Limpix guarda en el propio teléfono: qué fotos ya revisaste, qué hay en la papelera de la app, el resultado del análisis, tus ajustes (idioma y apariencia), el contador de espacio liberado, cuántas fotos deslizaste hoy y cuántos videos comprimiste. Estos datos se eliminan al desinstalar la app o al borrar sus datos desde los ajustes de Android.</p>
+
+    <h2>Datos que tratan otros servicios</h2>
+    <p>Limpix incluye servicios de otras empresas, que tratan algunos datos técnicos. Ninguno recibe tus fotos ni tus videos.</p>
+    <p><strong>Google AdMob (publicidad, solo versión gratuita):</strong> el identificador de publicidad del dispositivo y otros identificadores, la dirección IP (de la que puede deducirse una ubicación aproximada), cómo usas la app y los anuncios, y datos de diagnóstico. Se usan para mostrar anuncios, medirlos y evitar fraudes. <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google esta información</a>.</p>
+    <p><strong>Google Play y RevenueCat (compras):</strong> las compras se pagan en Google Play; Limpix no recibe ni guarda los datos de tu tarjeta. Para comprobar que cada compra es real y mantener tu Premium al día, RevenueCat recibe un identificador anónimo de la instalación, los datos de la compra (qué plan, cuándo y su estado) y datos técnicos como el país, la versión de la app y, como en toda conexión a internet, la dirección IP. No recibe tu nombre ni tu correo. <a href="https://www.revenuecat.com/privacy">Política de privacidad de RevenueCat</a>.</p>
+    <p><strong>Google ML Kit (lectura de texto, función Premium):</strong> la foto se analiza en el teléfono y no se envía. El componente sí envía a Google datos técnicos de uso (modelo del teléfono, versión de la app, un identificador de la instalación, rendimiento y errores) para diagnóstico. <a href="https://developers.google.com/ml-kit/terms">Más información</a>.</p>
+    <p>Limpix no vende tus datos personales.</p>
 
     <h2>Permisos</h2>
-    <ul>
-      <li><strong>Fotos y videos:</strong> necesario para mostrar, analizar y borrar los archivos que tú decidas. Sin este permiso la app no puede funcionar.</li>
-      <li><strong>Internet:</strong> se usa únicamente para mostrar publicidad en la versión gratuita y para gestionar y verificar las compras.</li>
-    </ul>
+    <p><strong>Fotos y videos:</strong> necesario para mostrar, analizar y borrar los archivos que tú decidas. Sin este permiso la app no puede funcionar.</p>
+    <p><strong>Internet:</strong> se usa para mostrar publicidad en la versión gratuita, gestionar y verificar las compras y enviar los datos técnicos descritos arriba.</p>
     <p>Limpix solo borra archivos cuando tú lo confirmas. Lo que deslizas para borrar va primero a la papelera de la app; al vaciarla, Android pide tu confirmación antes de eliminar.</p>
 
-    <h2>Publicidad (versión gratuita)</h2>
-    <p>La versión gratuita muestra anuncios mediante Google AdMob. Para ello, Google puede recopilar y tratar datos como el identificador de publicidad del dispositivo, información del dispositivo, la dirección IP (de la que puede deducirse una ubicación aproximada) y cómo interactúas con los anuncios. Limpix no entrega a Google tus fotos, tus videos ni información sobre su contenido.</p>
-    <p>Más información: <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google la información de las apps que usan sus servicios</a>. Puedes restablecer o eliminar tu identificador de publicidad en Ajustes de Android → Google → Anuncios. La versión Premium no muestra publicidad.</p>
+    <h2>Para qué se usan los datos y con qué base</h2>
+    <p>Funcionamiento de la app y compras: para entregarte el servicio que pediste y cumplir obligaciones legales. Publicidad: con tu consentimiento donde la ley lo exige (por ejemplo, en el Espacio Económico Europeo, el Reino Unido y Suiza, donde la app te lo pregunta antes de mostrar anuncios) y, en los demás países, por el interés legítimo de financiar la versión gratuita. Diagnóstico: por el interés legítimo de que la app funcione bien.</p>
 
-    <h2>Compras</h2>
-    <p>Las compras de Premium se realizan a través de Google Play. Limpix no recibe ni guarda los datos de tu tarjeta ni de tu medio de pago; solo recibe la confirmación de que la compra está vigente.</p>
-    <p>Para comprobar que cada compra es real y mantener tu Premium al día (renovaciones, cancelaciones, reembolsos y restauración al cambiar de teléfono), Limpix usa el servicio RevenueCat. RevenueCat recibe un identificador anónimo de la instalación y los datos de la compra (qué plan, cuándo y su estado). No recibe tu nombre, tu correo, los datos de tu tarjeta ni tus fotos o videos. Más información: <a href="https://www.revenuecat.com/privacy">política de privacidad de RevenueCat</a>.</p>
-
-    <h2>Menores de edad</h2>
-    <p>Limpix no está dirigida a niños menores de 13 años y no recopila intencionalmente datos de ellos.</p>
+    <h2>Dónde se tratan y cuánto tiempo</h2>
+    <p>Google y RevenueCat pueden tratar los datos en Estados Unidos y otros países, con las garantías que describen en sus propias políticas. Limpix no guarda copia de esos datos: los conservan esas empresas durante el tiempo que indican sus políticas. Lo que la app guarda en tu teléfono permanece hasta que la desinstales o borres sus datos.</p>
 
     <h2>Tus derechos</h2>
-    <p>Como Limpix no recopila ni almacena tus datos personales en servidores propios, no tiene datos tuyos que entregar, corregir o borrar. Para los datos tratados por Google con fines publicitarios, puedes ejercer tus derechos directamente ante Google. Si tienes dudas, escríbenos al correo de contacto.</p>
+    <p>Según la ley de tu país, puedes pedir acceso a tus datos, corregirlos, borrarlos, oponerte a su uso, pedir su portabilidad y retirar tu consentimiento. Para ejercerlos escribe a <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>; respondemos en un máximo de 30 días. Como Limpix no sabe quién eres, podemos pedirte el identificador que aparece en tu comprobante de compra para ubicar tus datos en RevenueCat.</p>
+    <p>Publicidad: puedes restablecer o eliminar tu identificador de publicidad y desactivar los anuncios personalizados en Ajustes de Android → Google → Anuncios. Donde la ley lo exige, puedes cambiar tu decisión en Ajustes de Limpix → Opciones de privacidad de anuncios. La versión Premium no muestra publicidad.</p>
+    <p>Si crees que tus datos no se trataron bien, también puedes reclamar ante la autoridad de protección de datos de tu país.</p>
+
+    <h2>Menores de edad</h2>
+    <p>Limpix no está dirigida a niños menores de 13 años, ni a menores de la edad en que la ley de tu país exige el permiso de los padres para tratar datos (hasta 16 años en algunos países de Europa), y no recopila intencionalmente datos de ellos.</p>
+
+    <h2>Seguridad</h2>
+    <p>Los datos de la app permanecen en tu teléfono, protegidos por el propio sistema Android. Las conexiones con los servicios de publicidad y de compras van cifradas.</p>
 
     <h2>Cambios</h2>
     <p>Si esta política cambia, la versión actualizada se publicará en esta misma página con su nueva fecha de vigencia.</p>
@@ -98,40 +102,44 @@
 
   <section id="en" lang="en">
     <h2>Privacy policy</h2>
-    <p class="muted">Effective: October 11, 2026</p>
-    <p>Limpix is an Android app that helps you free up space by reviewing and deleting photos and videos. Controller: Christopher Toledo, Chile. Contact: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>.</p>
+    <p class="muted">Effective: October 12, 2026 · <a href="terminos.html#en">Terms of use</a></p>
+    <p>Limpix is an Android app that helps you free up space by reviewing and deleting photos and videos. Controller: Christopher Toledo, Chile. Contact: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>. This policy is published in several languages; if they differ, the Spanish version prevails.</p>
 
     <h2>Your photos and videos never leave your phone</h2>
-    <ul>
-      <li>Limpix reads your gallery to show you your photos and videos, find duplicates, similar shots, blurry photos and documents, and work out how much space they take.</li>
-      <li>All of that analysis happens on your phone. Limpix does not upload, copy or share your photos or videos with anyone.</li>
-      <li>Limpix does not ask you to create an account and has no servers of its own that receive your files.</li>
-      <li>Reading text in photos (to recognise documents) and compressing videos also happen on the phone, with no internet connection.</li>
-    </ul>
+    <p>Limpix reads your gallery to show you your photos and videos, find duplicates, similar shots, blurry photos and documents, and work out how much space they take. All of that analysis, the reading of text in photos and the compression of videos happen on your phone.</p>
+    <p>Limpix does not upload, copy or share your photos or videos, or any information about what they contain. It does not ask you to create an account and has no servers of its own that receive your files.</p>
 
     <h2>What the app stores on your phone</h2>
-    <p>To work, Limpix stores on the phone itself: which photos you have reviewed, what is in the app's trash, the analysis results, your settings (language and appearance), the freed-space counter and how many photos you swiped today. This data is removed when you uninstall the app or clear its data in Android settings.</p>
+    <p>To work, Limpix stores on the phone itself: which photos you have reviewed, what is in the app's trash, the analysis results, your settings (language and appearance), the freed-space counter, how many photos you swiped today and how many videos you compressed. This data is removed when you uninstall the app or clear its data in Android settings.</p>
+
+    <h2>Data processed by other services</h2>
+    <p>Limpix includes services from other companies, which process some technical data. None of them receives your photos or videos.</p>
+    <p><strong>Google AdMob (advertising, free version only):</strong> the device advertising ID and other identifiers, IP address (from which an approximate location can be inferred), how you use the app and the ads, and diagnostic data. They are used to show ads, measure them and prevent fraud. <a href="https://policies.google.com/technologies/partner-sites">How Google uses this information</a>.</p>
+    <p><strong>Google Play and RevenueCat (purchases):</strong> purchases are paid through Google Play; Limpix does not receive or store your card details. To check that each purchase is genuine and keep your Premium up to date, RevenueCat receives an anonymous identifier for the installation, the purchase data (which plan, when, and its status) and technical data such as country, app version and, as with any internet connection, IP address. It does not receive your name or email. <a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>.</p>
+    <p><strong>Google ML Kit (text reading, Premium feature):</strong> the photo is analysed on the phone and is not sent. The component does send Google technical usage data (phone model, app version, an installation identifier, performance and errors) for diagnostics. <a href="https://developers.google.com/ml-kit/terms">More information</a>.</p>
+    <p>Limpix does not sell your personal data.</p>
 
     <h2>Permissions</h2>
-    <ul>
-      <li><strong>Photos and videos:</strong> required to show, analyse and delete the files you choose. The app cannot work without it.</li>
-      <li><strong>Internet:</strong> used only to show ads in the free version and to manage purchases.</li>
-    </ul>
+    <p><strong>Photos and videos:</strong> required to show, analyse and delete the files you choose. The app cannot work without it.</p>
+    <p><strong>Internet:</strong> used to show ads in the free version, manage and verify purchases, and send the technical data described above.</p>
     <p>Limpix only deletes files when you confirm. Anything you swipe to delete goes to the app's trash first; when you empty it, Android asks for your confirmation before deleting.</p>
 
-    <h2>Advertising (free version)</h2>
-    <p>The free version shows ads through Google AdMob. To do so, Google may collect and process data such as the device advertising ID, device information, IP address (from which an approximate location can be inferred) and how you interact with ads. Limpix does not give Google your photos, your videos or any information about their content.</p>
-    <p>More information: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a>. You can reset or delete your advertising ID in Android Settings → Google → Ads. The Premium version shows no ads.</p>
+    <h2>Why the data is used and on what basis</h2>
+    <p>Running the app and purchases: to provide the service you asked for and to meet legal obligations. Advertising: with your consent where the law requires it (for example in the European Economic Area, the United Kingdom and Switzerland, where the app asks you before showing ads) and, elsewhere, on the legitimate interest of funding the free version. Diagnostics: on the legitimate interest of keeping the app working well.</p>
 
-    <h2>Purchases</h2>
-    <p>Premium purchases are handled by Google Play. Limpix does not receive or store your card or payment details; it only receives confirmation that the purchase is active.</p>
-    <p>To check that each purchase is genuine and keep your Premium up to date (renewals, cancellations, refunds and restoring when you change phones), Limpix uses the RevenueCat service. RevenueCat receives an anonymous identifier for the installation and the purchase data (which plan, when, and its status). It does not receive your name, your email, your card details or your photos or videos. More information: <a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>.</p>
-
-    <h2>Children</h2>
-    <p>Limpix is not directed to children under 13 and does not knowingly collect data from them.</p>
+    <h2>Where it is processed and for how long</h2>
+    <p>Google and RevenueCat may process data in the United States and other countries, with the safeguards described in their own policies. Limpix keeps no copy of that data: those companies retain it for the periods stated in their policies. What the app stores on your phone stays there until you uninstall it or clear its data.</p>
 
     <h2>Your rights</h2>
-    <p>Because Limpix does not collect or store your personal data on servers of its own, it holds no data about you to provide, correct or delete. For data processed by Google for advertising, you can exercise your rights directly with Google. If you have questions, write to the contact email.</p>
+    <p>Depending on the law of your country, you can ask to access your data, correct it, delete it, object to its use, request portability and withdraw your consent. To do so, write to <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>; we reply within 30 days. Because Limpix does not know who you are, we may ask for the identifier shown on your purchase receipt to locate your data in RevenueCat.</p>
+    <p>Advertising: you can reset or delete your advertising ID and turn off personalised ads in Android Settings → Google → Ads. Where the law requires it, you can change your choice in Limpix Settings → Ad privacy options. The Premium version shows no ads.</p>
+    <p>If you believe your data was not handled properly, you can also complain to the data protection authority of your country.</p>
+
+    <h2>Children</h2>
+    <p>Limpix is not directed to children under 13, or to anyone below the age at which the law of your country requires parental permission to process data (up to 16 in some European countries), and does not knowingly collect data from them.</p>
+
+    <h2>Security</h2>
+    <p>The app's data stays on your phone, protected by Android itself. Connections to the advertising and purchase services are encrypted.</p>
 
     <h2>Changes</h2>
     <p>If this policy changes, the updated version will be published on this page with its new effective date.</p>
@@ -139,43 +147,227 @@
 
   <section id="pt" lang="pt">
     <h2>Política de privacidade</h2>
-    <p class="muted">Em vigor desde: 11 de outubro de 2026</p>
-    <p>O Limpix é um aplicativo para Android que ajuda a liberar espaço revisando e apagando fotos e vídeos. Responsável: Christopher Toledo, Chile. Contato: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>.</p>
+    <p class="muted">Em vigor desde: 12 de outubro de 2026 · <a href="terminos.html#pt">Termos de uso</a></p>
+    <p>O Limpix é um aplicativo para Android que ajuda a liberar espaço revisando e apagando fotos e vídeos. Responsável: Christopher Toledo, Chile. Contato: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>. Esta política é publicada em vários idiomas; se houver diferenças, vale a versão em espanhol.</p>
 
     <h2>Suas fotos e vídeos não saem do celular</h2>
-    <ul>
-      <li>O Limpix lê sua galeria para mostrar suas fotos e vídeos, encontrar duplicados, fotos parecidas, borradas e documentos, e calcular quanto espaço ocupam.</li>
-      <li>Toda essa análise é feita dentro do seu celular. O Limpix não envia, não copia e não compartilha suas fotos nem seus vídeos com ninguém.</li>
-      <li>O Limpix não pede para criar conta e não tem servidores próprios que recebam seus arquivos.</li>
-      <li>A leitura de texto em fotos (para reconhecer documentos) e a compressão de vídeos também acontecem no celular, sem conexão com a internet.</li>
-    </ul>
+    <p>O Limpix lê sua galeria para mostrar suas fotos e vídeos, encontrar duplicados, fotos parecidas, borradas e documentos, e calcular quanto espaço ocupam. Toda essa análise, a leitura de texto em fotos e a compressão de vídeos acontecem dentro do seu celular.</p>
+    <p>O Limpix não envia, não copia e não compartilha suas fotos nem seus vídeos, nem informações sobre o conteúdo deles. Não pede para criar conta e não tem servidores próprios que recebam seus arquivos.</p>
 
     <h2>O que o app guarda no seu celular</h2>
-    <p>Para funcionar, o Limpix guarda no próprio celular: quais fotos você já revisou, o que está na lixeira do app, o resultado da análise, suas configurações (idioma e aparência), o contador de espaço liberado e quantas fotos você deslizou hoje. Esses dados são removidos ao desinstalar o app ou ao limpar seus dados nas configurações do Android.</p>
+    <p>Para funcionar, o Limpix guarda no próprio celular: quais fotos você já revisou, o que está na lixeira do app, o resultado da análise, suas configurações (idioma e aparência), o contador de espaço liberado, quantas fotos você deslizou hoje e quantos vídeos comprimiu. Esses dados são removidos ao desinstalar o app ou ao limpar seus dados nas configurações do Android.</p>
+
+    <h2>Dados tratados por outros serviços</h2>
+    <p>O Limpix inclui serviços de outras empresas, que tratam alguns dados técnicos. Nenhum deles recebe suas fotos ou vídeos.</p>
+    <p><strong>Google AdMob (publicidade, apenas na versão gratuita):</strong> o ID de publicidade do dispositivo e outros identificadores, o endereço IP (do qual se pode deduzir uma localização aproximada), como você usa o app e os anúncios, e dados de diagnóstico. São usados para mostrar anúncios, medi-los e evitar fraudes. <a href="https://policies.google.com/technologies/partner-sites">Como o Google usa essas informações</a>.</p>
+    <p><strong>Google Play e RevenueCat (compras):</strong> as compras são pagas no Google Play; o Limpix não recebe nem guarda os dados do seu cartão. Para confirmar que cada compra é real e manter seu Premium em dia, o RevenueCat recebe um identificador anônimo da instalação, os dados da compra (qual plano, quando e seu estado) e dados técnicos como o país, a versão do app e, como em toda conexão à internet, o endereço IP. Não recebe seu nome nem seu e-mail. <a href="https://www.revenuecat.com/privacy">Política de privacidade do RevenueCat</a>.</p>
+    <p><strong>Google ML Kit (leitura de texto, recurso Premium):</strong> a foto é analisada no celular e não é enviada. O componente envia ao Google dados técnicos de uso (modelo do celular, versão do app, um identificador da instalação, desempenho e erros) para diagnóstico. <a href="https://developers.google.com/ml-kit/terms">Mais informações</a>.</p>
+    <p>O Limpix não vende seus dados pessoais.</p>
 
     <h2>Permissões</h2>
-    <ul>
-      <li><strong>Fotos e vídeos:</strong> necessária para mostrar, analisar e apagar os arquivos que você escolher. Sem ela o app não funciona.</li>
-      <li><strong>Internet:</strong> usada apenas para mostrar anúncios na versão gratuita e para gerenciar as compras.</li>
-    </ul>
+    <p><strong>Fotos e vídeos:</strong> necessária para mostrar, analisar e apagar os arquivos que você escolher. Sem ela o app não funciona.</p>
+    <p><strong>Internet:</strong> usada para mostrar anúncios na versão gratuita, gerenciar e verificar as compras e enviar os dados técnicos descritos acima.</p>
     <p>O Limpix só apaga arquivos quando você confirma. O que você desliza para apagar vai primeiro para a lixeira do app; ao esvaziá-la, o Android pede sua confirmação antes de apagar.</p>
 
-    <h2>Publicidade (versão gratuita)</h2>
-    <p>A versão gratuita mostra anúncios por meio do Google AdMob. Para isso, o Google pode coletar e tratar dados como o ID de publicidade do dispositivo, informações do dispositivo, o endereço IP (do qual se pode deduzir uma localização aproximada) e como você interage com os anúncios. O Limpix não entrega ao Google suas fotos, seus vídeos nem informações sobre o conteúdo deles.</p>
-    <p>Mais informações: <a href="https://policies.google.com/technologies/partner-sites">Como o Google usa informações de apps que usam seus serviços</a>. Você pode redefinir ou excluir seu ID de publicidade em Configurações do Android → Google → Anúncios. A versão Premium não mostra publicidade.</p>
+    <h2>Para que os dados são usados e com que base</h2>
+    <p>Funcionamento do app e compras: para prestar o serviço que você pediu e cumprir obrigações legais. Publicidade: com seu consentimento onde a lei exige (por exemplo, no Espaço Econômico Europeu, no Reino Unido e na Suíça, onde o app pergunta antes de mostrar anúncios) e, nos demais países, pelo legítimo interesse de financiar a versão gratuita. Diagnóstico: pelo legítimo interesse de manter o app funcionando bem.</p>
 
-    <h2>Compras</h2>
-    <p>As compras do Premium são feitas pelo Google Play. O Limpix não recebe nem guarda os dados do seu cartão ou meio de pagamento; recebe apenas a confirmação de que a compra está ativa.</p>
-    <p>Para confirmar que cada compra é real e manter seu Premium em dia (renovações, cancelamentos, reembolsos e restauração ao trocar de celular), o Limpix usa o serviço RevenueCat. O RevenueCat recebe um identificador anônimo da instalação e os dados da compra (qual plano, quando e seu estado). Não recebe seu nome, seu e-mail, os dados do seu cartão nem suas fotos ou vídeos. Mais informações: <a href="https://www.revenuecat.com/privacy">política de privacidade do RevenueCat</a>.</p>
-
-    <h2>Menores de idade</h2>
-    <p>O Limpix não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados delas.</p>
+    <h2>Onde são tratados e por quanto tempo</h2>
+    <p>O Google e o RevenueCat podem tratar os dados nos Estados Unidos e em outros países, com as garantias descritas em suas próprias políticas. O Limpix não guarda cópia desses dados: essas empresas os conservam pelo tempo indicado em suas políticas. O que o app guarda no seu celular permanece até você desinstalá-lo ou limpar seus dados.</p>
 
     <h2>Seus direitos</h2>
-    <p>Como o Limpix não coleta nem armazena seus dados pessoais em servidores próprios, não possui dados seus para fornecer, corrigir ou apagar. Para os dados tratados pelo Google para fins publicitários, você pode exercer seus direitos diretamente junto ao Google. Em caso de dúvidas, escreva para o e-mail de contato.</p>
+    <p>Conforme a lei do seu país (no Brasil, a LGPD), você pode pedir acesso aos seus dados, corrigi-los, apagá-los, opor-se ao uso, pedir a portabilidade e retirar seu consentimento. Para isso, escreva para <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>; respondemos em até 30 dias. Como o Limpix não sabe quem você é, podemos pedir o identificador que aparece no seu comprovante de compra para localizar seus dados no RevenueCat.</p>
+    <p>Publicidade: você pode redefinir ou excluir seu ID de publicidade e desativar os anúncios personalizados em Configurações do Android → Google → Anúncios. Onde a lei exige, você pode mudar sua escolha em Ajustes do Limpix → Opções de privacidade de anúncios. A versão Premium não mostra publicidade.</p>
+    <p>Se você acredita que seus dados não foram bem tratados, também pode reclamar à autoridade de proteção de dados do seu país.</p>
+
+    <h2>Menores de idade</h2>
+    <p>O Limpix não é direcionado a crianças menores de 13 anos, nem a menores da idade em que a lei do seu país exige a permissão dos pais para tratar dados (até 16 anos em alguns países da Europa), e não coleta intencionalmente dados deles.</p>
+
+    <h2>Segurança</h2>
+    <p>Os dados do app ficam no seu celular, protegidos pelo próprio Android. As conexões com os serviços de publicidade e de compras são criptografadas.</p>
 
     <h2>Alterações</h2>
     <p>Se esta política mudar, a versão atualizada será publicada nesta mesma página com a nova data de vigência.</p>
+  </section>
+
+  <section id="fr" lang="fr">
+    <h2>Politique de confidentialité</h2>
+    <p class="muted">En vigueur depuis le 12 octobre 2026 · <a href="terminos.html#fr">Conditions d'utilisation</a></p>
+    <p>Limpix est une application Android qui aide à libérer de l'espace en passant en revue et en supprimant des photos et des vidéos. Responsable du traitement : Christopher Toledo, Chili. Contact : <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>. Cette politique est publiée en plusieurs langues ; en cas de différence, la version espagnole prévaut.</p>
+
+    <h2>Vos photos et vidéos ne quittent pas votre téléphone</h2>
+    <p>Limpix lit votre galerie pour afficher vos photos et vidéos, trouver les doublons, les photos similaires, floues et les documents, et calculer la place qu'ils occupent. Toute cette analyse, la lecture du texte dans les photos et la compression des vidéos se font sur votre téléphone.</p>
+    <p>Limpix n'envoie pas, ne copie pas et ne partage pas vos photos ni vos vidéos, ni aucune information sur leur contenu. Il ne demande pas de créer un compte et n'a aucun serveur qui reçoive vos fichiers.</p>
+
+    <h2>Ce que l'application enregistre sur votre téléphone</h2>
+    <p>Pour fonctionner, Limpix enregistre sur le téléphone lui-même : les photos déjà passées en revue, le contenu de la corbeille de l'application, le résultat de l'analyse, vos réglages (langue et apparence), le compteur d'espace libéré, le nombre de photos balayées aujourd'hui et le nombre de vidéos compressées. Ces données sont supprimées lorsque vous désinstallez l'application ou effacez ses données dans les paramètres Android.</p>
+
+    <h2>Données traitées par d'autres services</h2>
+    <p>Limpix intègre des services d'autres entreprises, qui traitent certaines données techniques. Aucun ne reçoit vos photos ni vos vidéos.</p>
+    <p><strong>Google AdMob (publicité, version gratuite uniquement) :</strong> l'identifiant publicitaire de l'appareil et d'autres identifiants, l'adresse IP (dont on peut déduire une localisation approximative), votre utilisation de l'application et des annonces, et des données de diagnostic. Ils servent à afficher les annonces, à les mesurer et à prévenir la fraude. <a href="https://policies.google.com/technologies/partner-sites">Comment Google utilise ces informations</a>.</p>
+    <p><strong>Google Play et RevenueCat (achats) :</strong> les achats sont payés via Google Play ; Limpix ne reçoit ni ne conserve les données de votre carte. Pour vérifier que chaque achat est réel et tenir votre Premium à jour, RevenueCat reçoit un identifiant anonyme de l'installation, les données de l'achat (quelle formule, quand et son état) et des données techniques comme le pays, la version de l'application et, comme pour toute connexion internet, l'adresse IP. Il ne reçoit ni votre nom ni votre e-mail. <a href="https://www.revenuecat.com/privacy">Politique de confidentialité de RevenueCat</a>.</p>
+    <p><strong>Google ML Kit (lecture de texte, fonction Premium) :</strong> la photo est analysée sur le téléphone et n'est pas envoyée. Le composant envoie toutefois à Google des données techniques d'utilisation (modèle du téléphone, version de l'application, un identifiant d'installation, performances et erreurs) à des fins de diagnostic. <a href="https://developers.google.com/ml-kit/terms">En savoir plus</a>.</p>
+    <p>Limpix ne vend pas vos données personnelles.</p>
+
+    <h2>Autorisations</h2>
+    <p><strong>Photos et vidéos :</strong> nécessaire pour afficher, analyser et supprimer les fichiers que vous choisissez. Sans elle, l'application ne peut pas fonctionner.</p>
+    <p><strong>Internet :</strong> sert à afficher la publicité dans la version gratuite, à gérer et vérifier les achats et à envoyer les données techniques décrites ci-dessus.</p>
+    <p>Limpix ne supprime des fichiers que lorsque vous confirmez. Ce que vous balayez pour supprimer va d'abord dans la corbeille de l'application ; quand vous la videz, Android vous demande confirmation avant de supprimer.</p>
+
+    <h2>Finalités et bases légales</h2>
+    <p>Fonctionnement de l'application et achats : pour fournir le service demandé et respecter les obligations légales. Publicité : avec votre consentement là où la loi l'exige (par exemple dans l'Espace économique européen, au Royaume-Uni et en Suisse, où l'application vous le demande avant d'afficher des annonces) et, ailleurs, sur la base de l'intérêt légitime à financer la version gratuite. Diagnostic : sur la base de l'intérêt légitime au bon fonctionnement de l'application.</p>
+
+    <h2>Lieu et durée du traitement</h2>
+    <p>Google et RevenueCat peuvent traiter les données aux États-Unis et dans d'autres pays, avec les garanties décrites dans leurs propres politiques. Limpix ne conserve aucune copie de ces données : ces entreprises les conservent pendant la durée indiquée dans leurs politiques. Ce que l'application enregistre sur votre téléphone y reste jusqu'à la désinstallation ou l'effacement de ses données.</p>
+
+    <h2>Vos droits</h2>
+    <p>Selon la loi de votre pays (dans l'Union européenne, le RGPD), vous pouvez demander l'accès à vos données, leur rectification, leur effacement, vous opposer à leur utilisation, demander leur portabilité et retirer votre consentement. Écrivez à <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a> ; nous répondons dans un délai de 30 jours. Comme Limpix ne sait pas qui vous êtes, nous pouvons vous demander l'identifiant figurant sur votre reçu d'achat pour retrouver vos données chez RevenueCat.</p>
+    <p>Publicité : vous pouvez réinitialiser ou supprimer votre identifiant publicitaire et désactiver les annonces personnalisées dans Paramètres Android → Google → Annonces. Là où la loi l'exige, vous pouvez modifier votre choix dans Réglages de Limpix → Options de confidentialité des annonces. La version Premium n'affiche aucune publicité.</p>
+    <p>Si vous estimez que vos données n'ont pas été traitées correctement, vous pouvez aussi saisir l'autorité de protection des données de votre pays.</p>
+
+    <h2>Mineurs</h2>
+    <p>Limpix ne s'adresse pas aux enfants de moins de 13 ans, ni aux mineurs n'ayant pas l'âge auquel la loi de votre pays exige l'autorisation des parents pour traiter des données (jusqu'à 16 ans dans certains pays d'Europe), et ne collecte pas sciemment de données les concernant.</p>
+
+    <h2>Sécurité</h2>
+    <p>Les données de l'application restent sur votre téléphone, protégées par Android. Les connexions aux services de publicité et d'achat sont chiffrées.</p>
+
+    <h2>Modifications</h2>
+    <p>Si cette politique change, la version mise à jour sera publiée sur cette page avec sa nouvelle date d'entrée en vigueur.</p>
+  </section>
+
+  <section id="de" lang="de">
+    <h2>Datenschutzerklärung</h2>
+    <p class="muted">Gültig ab: 12. Oktober 2026 · <a href="terminos.html#de">Nutzungsbedingungen</a></p>
+    <p>Limpix ist eine Android-App, die hilft, Speicherplatz freizugeben, indem Fotos und Videos durchgesehen und gelöscht werden. Verantwortlicher: Christopher Toledo, Chile. Kontakt: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>. Diese Erklärung wird in mehreren Sprachen veröffentlicht; bei Abweichungen gilt die spanische Fassung.</p>
+
+    <h2>Deine Fotos und Videos verlassen dein Handy nicht</h2>
+    <p>Limpix liest deine Galerie, um dir Fotos und Videos zu zeigen, Duplikate, ähnliche und unscharfe Fotos sowie Dokumente zu finden und zu berechnen, wie viel Platz sie belegen. Diese Analyse, das Lesen von Text in Fotos und das Komprimieren von Videos finden auf deinem Handy statt.</p>
+    <p>Limpix lädt deine Fotos und Videos nicht hoch, kopiert sie nicht und gibt weder sie noch Informationen über ihren Inhalt weiter. Es verlangt kein Konto und hat keine eigenen Server, die deine Dateien empfangen.</p>
+
+    <h2>Was die App auf deinem Handy speichert</h2>
+    <p>Um zu funktionieren, speichert Limpix auf dem Handy selbst: welche Fotos du bereits durchgesehen hast, was im Papierkorb der App liegt, das Ergebnis der Analyse, deine Einstellungen (Sprache und Darstellung), den Zähler des freigegebenen Speichers, wie viele Fotos du heute gewischt und wie viele Videos du komprimiert hast. Diese Daten werden entfernt, wenn du die App deinstallierst oder ihre Daten in den Android-Einstellungen löschst.</p>
+
+    <h2>Daten, die andere Dienste verarbeiten</h2>
+    <p>Limpix enthält Dienste anderer Unternehmen, die einige technische Daten verarbeiten. Keiner davon erhält deine Fotos oder Videos.</p>
+    <p><strong>Google AdMob (Werbung, nur kostenlose Version):</strong> die Werbe-ID des Geräts und weitere Kennungen, die IP-Adresse (aus der sich ein ungefährer Standort ableiten lässt), wie du die App und die Anzeigen nutzt, sowie Diagnosedaten. Sie dienen dazu, Anzeigen zu zeigen, zu messen und Betrug zu verhindern. <a href="https://policies.google.com/technologies/partner-sites">Wie Google diese Informationen verwendet</a>.</p>
+    <p><strong>Google Play und RevenueCat (Käufe):</strong> Käufe werden über Google Play bezahlt; Limpix erhält und speichert keine Kartendaten. Um zu prüfen, dass jeder Kauf echt ist, und dein Premium aktuell zu halten, erhält RevenueCat eine anonyme Kennung der Installation, die Kaufdaten (welcher Tarif, wann und sein Status) und technische Daten wie Land, App-Version und, wie bei jeder Internetverbindung, die IP-Adresse. Deinen Namen oder deine E-Mail erhält es nicht. <a href="https://www.revenuecat.com/privacy">Datenschutzerklärung von RevenueCat</a>.</p>
+    <p><strong>Google ML Kit (Texterkennung, Premium-Funktion):</strong> das Foto wird auf dem Handy analysiert und nicht gesendet. Die Komponente sendet jedoch technische Nutzungsdaten an Google (Handymodell, App-Version, eine Installationskennung, Leistung und Fehler) zu Diagnosezwecken. <a href="https://developers.google.com/ml-kit/terms">Mehr Informationen</a>.</p>
+    <p>Limpix verkauft deine personenbezogenen Daten nicht.</p>
+
+    <h2>Berechtigungen</h2>
+    <p><strong>Fotos und Videos:</strong> nötig, um die von dir gewählten Dateien anzuzeigen, zu analysieren und zu löschen. Ohne sie kann die App nicht funktionieren.</p>
+    <p><strong>Internet:</strong> wird verwendet, um in der kostenlosen Version Werbung zu zeigen, Käufe zu verwalten und zu prüfen und die oben beschriebenen technischen Daten zu senden.</p>
+    <p>Limpix löscht Dateien nur, wenn du es bestätigst. Was du zum Löschen wischst, landet zuerst im Papierkorb der App; wenn du ihn leerst, fragt Android vor dem Löschen nach deiner Bestätigung.</p>
+
+    <h2>Zwecke und Rechtsgrundlagen</h2>
+    <p>Betrieb der App und Käufe: um die gewünschte Leistung zu erbringen und gesetzliche Pflichten zu erfüllen. Werbung: mit deiner Einwilligung, wo das Gesetz sie verlangt (zum Beispiel im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz, wo die App dich fragt, bevor Anzeigen gezeigt werden), und sonst auf Grundlage des berechtigten Interesses, die kostenlose Version zu finanzieren. Diagnose: auf Grundlage des berechtigten Interesses, dass die App gut funktioniert.</p>
+
+    <h2>Ort und Dauer der Verarbeitung</h2>
+    <p>Google und RevenueCat können Daten in den USA und anderen Ländern verarbeiten, mit den in ihren eigenen Richtlinien beschriebenen Garantien. Limpix bewahrt keine Kopie dieser Daten auf: diese Unternehmen speichern sie für die in ihren Richtlinien genannte Dauer. Was die App auf deinem Handy speichert, bleibt dort, bis du sie deinstallierst oder ihre Daten löschst.</p>
+
+    <h2>Deine Rechte</h2>
+    <p>Je nach Recht deines Landes (in der Europäischen Union die DSGVO) kannst du Auskunft über deine Daten, ihre Berichtigung und Löschung verlangen, der Verwendung widersprechen, Datenübertragbarkeit verlangen und deine Einwilligung widerrufen. Schreibe dazu an <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>; wir antworten innerhalb von 30 Tagen. Da Limpix nicht weiß, wer du bist, können wir dich um die Kennung auf deinem Kaufbeleg bitten, um deine Daten bei RevenueCat zu finden.</p>
+    <p>Werbung: Du kannst deine Werbe-ID zurücksetzen oder löschen und personalisierte Anzeigen abschalten unter Android-Einstellungen → Google → Anzeigen. Wo das Gesetz es verlangt, kannst du deine Entscheidung unter Limpix-Einstellungen → Datenschutzoptionen für Werbung ändern. Die Premium-Version zeigt keine Werbung.</p>
+    <p>Wenn du meinst, dass deine Daten nicht richtig behandelt wurden, kannst du dich auch bei der Datenschutzbehörde deines Landes beschweren.</p>
+
+    <h2>Minderjährige</h2>
+    <p>Limpix richtet sich nicht an Kinder unter 13 Jahren und nicht an Minderjährige unter dem Alter, ab dem das Recht deines Landes die Erlaubnis der Eltern für die Datenverarbeitung verlangt (in einigen europäischen Ländern bis 16 Jahre), und erhebt wissentlich keine Daten von ihnen.</p>
+
+    <h2>Sicherheit</h2>
+    <p>Die Daten der App bleiben auf deinem Handy und sind durch Android selbst geschützt. Die Verbindungen zu den Werbe- und Kaufdiensten sind verschlüsselt.</p>
+
+    <h2>Änderungen</h2>
+    <p>Wenn sich diese Erklärung ändert, wird die aktualisierte Fassung auf dieser Seite mit ihrem neuen Gültigkeitsdatum veröffentlicht.</p>
+  </section>
+
+  <section id="it" lang="it">
+    <h2>Informativa sulla privacy</h2>
+    <p class="muted">In vigore dal 12 ottobre 2026 · <a href="terminos.html#it">Termini di utilizzo</a></p>
+    <p>Limpix è un'app per Android che aiuta a liberare spazio rivedendo ed eliminando foto e video. Titolare del trattamento: Christopher Toledo, Cile. Contatto: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>. Questa informativa è pubblicata in più lingue; in caso di differenze prevale la versione in spagnolo.</p>
+
+    <h2>Le tue foto e i tuoi video non escono dal telefono</h2>
+    <p>Limpix legge la tua galleria per mostrarti foto e video, trovare duplicati, foto simili, sfocate e documenti, e calcolare quanto spazio occupano. Tutta questa analisi, la lettura del testo nelle foto e la compressione dei video avvengono sul tuo telefono.</p>
+    <p>Limpix non carica, non copia e non condivide le tue foto né i tuoi video, né informazioni sul loro contenuto. Non chiede di creare un account e non ha server propri che ricevano i tuoi file.</p>
+
+    <h2>Cosa salva l'app sul tuo telefono</h2>
+    <p>Per funzionare, Limpix salva sul telefono stesso: quali foto hai già rivisto, cosa c'è nel cestino dell'app, il risultato dell'analisi, le tue impostazioni (lingua e aspetto), il contatore dello spazio liberato, quante foto hai scorso oggi e quanti video hai compresso. Questi dati vengono rimossi quando disinstalli l'app o ne cancelli i dati dalle impostazioni di Android.</p>
+
+    <h2>Dati trattati da altri servizi</h2>
+    <p>Limpix include servizi di altre aziende, che trattano alcuni dati tecnici. Nessuno riceve le tue foto o i tuoi video.</p>
+    <p><strong>Google AdMob (pubblicità, solo versione gratuita):</strong> l'ID pubblicità del dispositivo e altri identificatori, l'indirizzo IP (da cui si può dedurre una posizione approssimativa), come usi l'app e gli annunci, e dati diagnostici. Servono a mostrare gli annunci, misurarli e prevenire le frodi. <a href="https://policies.google.com/technologies/partner-sites">Come Google usa queste informazioni</a>.</p>
+    <p><strong>Google Play e RevenueCat (acquisti):</strong> gli acquisti si pagano tramite Google Play; Limpix non riceve né conserva i dati della tua carta. Per verificare che ogni acquisto sia reale e tenere aggiornato il tuo Premium, RevenueCat riceve un identificatore anonimo dell'installazione, i dati dell'acquisto (quale piano, quando e il suo stato) e dati tecnici come il paese, la versione dell'app e, come in ogni connessione a internet, l'indirizzo IP. Non riceve il tuo nome né la tua email. <a href="https://www.revenuecat.com/privacy">Informativa sulla privacy di RevenueCat</a>.</p>
+    <p><strong>Google ML Kit (lettura del testo, funzione Premium):</strong> la foto viene analizzata sul telefono e non viene inviata. Il componente invia però a Google dati tecnici di utilizzo (modello del telefono, versione dell'app, un identificatore dell'installazione, prestazioni ed errori) a fini diagnostici. <a href="https://developers.google.com/ml-kit/terms">Maggiori informazioni</a>.</p>
+    <p>Limpix non vende i tuoi dati personali.</p>
+
+    <h2>Autorizzazioni</h2>
+    <p><strong>Foto e video:</strong> necessaria per mostrare, analizzare ed eliminare i file che scegli. Senza di essa l'app non può funzionare.</p>
+    <p><strong>Internet:</strong> serve a mostrare la pubblicità nella versione gratuita, gestire e verificare gli acquisti e inviare i dati tecnici descritti sopra.</p>
+    <p>Limpix elimina i file solo quando confermi. Ciò che scorri per eliminare va prima nel cestino dell'app; quando lo svuoti, Android chiede la tua conferma prima di eliminare.</p>
+
+    <h2>Finalità e basi giuridiche</h2>
+    <p>Funzionamento dell'app e acquisti: per fornirti il servizio richiesto e rispettare gli obblighi di legge. Pubblicità: con il tuo consenso dove la legge lo richiede (ad esempio nello Spazio economico europeo, nel Regno Unito e in Svizzera, dove l'app te lo chiede prima di mostrare annunci) e, altrove, in base al legittimo interesse a finanziare la versione gratuita. Diagnostica: in base al legittimo interesse al buon funzionamento dell'app.</p>
+
+    <h2>Dove e per quanto tempo</h2>
+    <p>Google e RevenueCat possono trattare i dati negli Stati Uniti e in altri paesi, con le garanzie descritte nelle loro informative. Limpix non conserva copia di quei dati: li conservano quelle aziende per il tempo indicato nelle loro informative. Ciò che l'app salva sul tuo telefono resta lì finché non la disinstalli o ne cancelli i dati.</p>
+
+    <h2>I tuoi diritti</h2>
+    <p>Secondo la legge del tuo paese (nell'Unione europea, il GDPR), puoi chiedere l'accesso ai tuoi dati, la rettifica, la cancellazione, opporti al loro uso, chiederne la portabilità e revocare il consenso. Scrivi a <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>; rispondiamo entro 30 giorni. Poiché Limpix non sa chi sei, potremmo chiederti l'identificatore presente sulla ricevuta d'acquisto per trovare i tuoi dati in RevenueCat.</p>
+    <p>Pubblicità: puoi reimpostare o eliminare il tuo ID pubblicità e disattivare gli annunci personalizzati in Impostazioni di Android → Google → Annunci. Dove la legge lo richiede, puoi cambiare la tua scelta in Impostazioni di Limpix → Opzioni di privacy degli annunci. La versione Premium non mostra pubblicità.</p>
+    <p>Se ritieni che i tuoi dati non siano stati trattati correttamente, puoi anche presentare reclamo all'autorità per la protezione dei dati del tuo paese.</p>
+
+    <h2>Minori</h2>
+    <p>Limpix non è rivolta ai bambini sotto i 13 anni, né ai minori dell'età in cui la legge del tuo paese richiede il permesso dei genitori per trattare i dati (fino a 16 anni in alcuni paesi europei), e non raccoglie consapevolmente dati su di loro.</p>
+
+    <h2>Sicurezza</h2>
+    <p>I dati dell'app restano sul tuo telefono, protetti da Android stesso. Le connessioni con i servizi di pubblicità e di acquisto sono cifrate.</p>
+
+    <h2>Modifiche</h2>
+    <p>Se questa informativa cambia, la versione aggiornata sarà pubblicata su questa pagina con la nuova data di entrata in vigore.</p>
+  </section>
+
+  <section id="id" lang="id">
+    <h2>Kebijakan privasi</h2>
+    <p class="muted">Berlaku sejak: 12 Oktober 2026 · <a href="terminos.html#id">Ketentuan penggunaan</a></p>
+    <p>Limpix adalah aplikasi Android yang membantu mengosongkan ruang dengan meninjau dan menghapus foto dan video. Penanggung jawab: Christopher Toledo, Chili. Kontak: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>. Kebijakan ini diterbitkan dalam beberapa bahasa; jika ada perbedaan, versi bahasa Spanyol yang berlaku.</p>
+
+    <h2>Foto dan video Anda tidak keluar dari ponsel</h2>
+    <p>Limpix membaca galeri Anda untuk menampilkan foto dan video, menemukan duplikat, foto mirip, foto buram, dan dokumen, serta menghitung ruang yang dipakainya. Semua analisis itu, pembacaan teks pada foto, dan kompresi video dilakukan di ponsel Anda.</p>
+    <p>Limpix tidak mengunggah, menyalin, atau membagikan foto maupun video Anda, atau informasi tentang isinya. Limpix tidak meminta Anda membuat akun dan tidak memiliki server sendiri yang menerima file Anda.</p>
+
+    <h2>Apa yang disimpan aplikasi di ponsel Anda</h2>
+    <p>Agar berfungsi, Limpix menyimpan di ponsel itu sendiri: foto mana yang sudah Anda tinjau, isi sampah aplikasi, hasil analisis, pengaturan Anda (bahasa dan tampilan), penghitung ruang yang dikosongkan, jumlah foto yang Anda geser hari ini, dan jumlah video yang Anda kompres. Data ini terhapus saat Anda mencopot aplikasi atau menghapus datanya di pengaturan Android.</p>
+
+    <h2>Data yang diproses layanan lain</h2>
+    <p>Limpix menyertakan layanan dari perusahaan lain yang memproses sebagian data teknis. Tidak satu pun menerima foto atau video Anda.</p>
+    <p><strong>Google AdMob (iklan, hanya versi gratis):</strong> ID iklan perangkat dan pengenal lain, alamat IP (yang dapat menunjukkan lokasi perkiraan), cara Anda menggunakan aplikasi dan iklan, serta data diagnostik. Data ini dipakai untuk menampilkan iklan, mengukurnya, dan mencegah penipuan. <a href="https://policies.google.com/technologies/partner-sites">Cara Google menggunakan informasi ini</a>.</p>
+    <p><strong>Google Play dan RevenueCat (pembelian):</strong> pembelian dibayar melalui Google Play; Limpix tidak menerima atau menyimpan data kartu Anda. Untuk memastikan setiap pembelian asli dan menjaga Premium Anda tetap mutakhir, RevenueCat menerima pengenal anonim instalasi, data pembelian (paket apa, kapan, dan statusnya), serta data teknis seperti negara, versi aplikasi, dan, seperti pada setiap koneksi internet, alamat IP. RevenueCat tidak menerima nama atau email Anda. <a href="https://www.revenuecat.com/privacy">Kebijakan privasi RevenueCat</a>.</p>
+    <p><strong>Google ML Kit (pembacaan teks, fitur Premium):</strong> foto dianalisis di ponsel dan tidak dikirim. Namun komponen ini mengirim data teknis penggunaan ke Google (model ponsel, versi aplikasi, pengenal instalasi, kinerja, dan kesalahan) untuk diagnostik. <a href="https://developers.google.com/ml-kit/terms">Informasi lebih lanjut</a>.</p>
+    <p>Limpix tidak menjual data pribadi Anda.</p>
+
+    <h2>Izin</h2>
+    <p><strong>Foto dan video:</strong> diperlukan untuk menampilkan, menganalisis, dan menghapus file yang Anda pilih. Tanpa izin ini aplikasi tidak dapat berfungsi.</p>
+    <p><strong>Internet:</strong> dipakai untuk menampilkan iklan di versi gratis, mengelola dan memverifikasi pembelian, serta mengirim data teknis yang dijelaskan di atas.</p>
+    <p>Limpix hanya menghapus file saat Anda mengonfirmasi. Yang Anda geser untuk dihapus masuk dulu ke sampah aplikasi; saat Anda mengosongkannya, Android meminta konfirmasi Anda sebelum menghapus.</p>
+
+    <h2>Tujuan dan dasar penggunaan data</h2>
+    <p>Menjalankan aplikasi dan pembelian: untuk memberikan layanan yang Anda minta dan memenuhi kewajiban hukum. Iklan: dengan persetujuan Anda bila hukum mewajibkannya (misalnya di Wilayah Ekonomi Eropa, Inggris Raya, dan Swiss, di mana aplikasi bertanya sebelum menampilkan iklan) dan, di negara lain, atas dasar kepentingan sah untuk membiayai versi gratis. Diagnostik: atas dasar kepentingan sah agar aplikasi berfungsi dengan baik.</p>
+
+    <h2>Tempat dan lama pemrosesan</h2>
+    <p>Google dan RevenueCat dapat memproses data di Amerika Serikat dan negara lain, dengan perlindungan yang dijelaskan dalam kebijakan mereka sendiri. Limpix tidak menyimpan salinan data itu: perusahaan-perusahaan tersebut menyimpannya selama waktu yang dinyatakan dalam kebijakan mereka. Yang disimpan aplikasi di ponsel Anda tetap ada sampai Anda mencopotnya atau menghapus datanya.</p>
+
+    <h2>Hak Anda</h2>
+    <p>Sesuai hukum negara Anda, Anda dapat meminta akses ke data Anda, memperbaikinya, menghapusnya, menolak penggunaannya, meminta portabilitas, dan menarik persetujuan. Untuk itu, tulis ke <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a>; kami membalas paling lambat dalam 30 hari. Karena Limpix tidak tahu siapa Anda, kami mungkin meminta pengenal yang tertera pada bukti pembelian untuk menemukan data Anda di RevenueCat.</p>
+    <p>Iklan: Anda dapat menyetel ulang atau menghapus ID iklan dan mematikan iklan yang dipersonalisasi di Setelan Android → Google → Iklan. Bila hukum mewajibkan, Anda dapat mengubah pilihan di Pengaturan Limpix → Opsi privasi iklan. Versi Premium tidak menampilkan iklan.</p>
+    <p>Jika Anda merasa data Anda tidak ditangani dengan benar, Anda juga dapat mengadu ke otoritas perlindungan data di negara Anda.</p>
+
+    <h2>Anak di bawah umur</h2>
+    <p>Limpix tidak ditujukan untuk anak di bawah 13 tahun, atau di bawah usia ketika hukum negara Anda mewajibkan izin orang tua untuk memproses data (hingga 16 tahun di beberapa negara Eropa), dan tidak dengan sengaja mengumpulkan data mereka.</p>
+
+    <h2>Keamanan</h2>
+    <p>Data aplikasi tetap berada di ponsel Anda, dilindungi oleh Android. Koneksi ke layanan iklan dan pembelian dienkripsi.</p>
+
+    <h2>Perubahan</h2>
+    <p>Jika kebijakan ini berubah, versi terbaru akan diterbitkan di halaman ini dengan tanggal berlaku yang baru.</p>
   </section>
 </main>
 </body>
