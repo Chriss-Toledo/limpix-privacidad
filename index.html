@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Limpix — Política de privacidad</title>
+<title>Limpix — Limpiador de galería</title>
+<meta name="description" content="Limpix libera espacio en tu teléfono: revisa tus fotos y videos deslizando, encuentra duplicados y comprime videos. Tus fotos no salen del teléfono.">
 <style>
   :root { --bg:#F4F5FB; --card:#FFFFFF; --text:#14162B; --muted:#5E6485; --line:#E1E4F2; --brand:#5B3DF5; }
   @media (prefers-color-scheme: dark) {
@@ -13,8 +14,16 @@
   body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
   main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
   header { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
-  .mark { width:44px; height:44px; border-radius:12px; background:linear-gradient(135deg,#6C4DFF,#3F8CFF 55%,#22C1F1); }
-  h1 { font-size:28px; margin:0; letter-spacing:-0.5px; }
+  .logo { width:72px; height:72px; border-radius:18px; }
+  h1 { font-size:34px; margin:0; letter-spacing:-0.8px; }
+  .hero { background:linear-gradient(135deg,#6C4DFF,#3F8CFF 55%,#22C1F1); color:#fff; border-radius:28px; padding:28px 24px; margin:20px 0 24px; }
+  .hero h2 { font-size:26px; line-height:1.2; margin:0 0 8px; letter-spacing:-0.5px; }
+  .hero p { color:rgba(255,255,255,0.92); margin:0; }
+  .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin-bottom:28px; }
+  .feature { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px; }
+  .feature strong { display:block; margin-bottom:4px; }
+  .feature span { color:var(--muted); font-size:14px; }
+  .soon { display:inline-block; margin-top:16px; padding:10px 18px; border-radius:999px; background:#fff; color:#5B3DF5; font-weight:700; font-size:14px; }
   h2 { font-size:19px; margin:28px 0 8px; }
   p, li { color:var(--text); }
   .muted { color:var(--muted); font-size:14px; }
@@ -27,8 +36,23 @@
 </head>
 <body>
 <main>
-  <header><div class="mark" aria-hidden="true"></div><h1>Limpix</h1></header>
-  <p class="muted">Política de privacidad · Privacy policy · Política de privacidade</p>
+  <header><img class="logo" src="logo.png" alt="Limpix" width="72" height="72"><h1>Limpix</h1></header>
+
+  <div class="hero">
+    <h2>Tu galería limpia, deslizando</h2>
+    <p>Libera espacio en tu teléfono Android revisando tus fotos y videos de la forma más rápida: a la izquierda se borra, a la derecha se conserva.</p>
+    <span class="soon">Pronto en Google Play</span>
+  </div>
+
+  <div class="features">
+    <div class="feature"><strong>Desliza para decidir</strong><span>Nada se borra al instante: todo pasa por la papelera y tú confirmas.</span></div>
+    <div class="feature"><strong>Duplicados y parecidas</strong><span>Copias idénticas y ráfagas, agrupadas para borrarlas de una vez.</span></div>
+    <div class="feature"><strong>Comprime tus videos</strong><span>Ocupan menos sin borrarlos. Ves el resultado antes de reemplazar.</span></div>
+    <div class="feature"><strong>Tus fotos no salen del teléfono</strong><span>Todo se analiza en tu equipo. Sin cuentas y sin subir nada.</span></div>
+  </div>
+
+  <p class="muted">Contacto: <a href="mailto:christopher.toledo.f@gmail.com">christopher.toledo.f@gmail.com</a></p>
+  <p class="muted" style="margin-top:28px">Política de privacidad · Privacy policy · Política de privacidade</p>
   <nav><a href="#es">Español</a><a href="#en">English</a><a href="#pt">Português</a></nav>
 
   <section id="es" lang="es">
